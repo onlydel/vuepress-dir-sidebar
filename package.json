@@ -1,6 +1,6 @@
 {
   "name": "vuepress-dir-sidebar",
-  "version": "0.1.5",
+  "version": "0.1.8",
   "description": "This is package that creates a sidebar using a directory structure.",
   "main": "lib/vuepress-dir-sidebar.js",
   "scripts": {
