@@ -1,0 +1,30 @@
+{
+  "name": "vuepress-dir-sidebar",
+  "version": "0.1.5",
+  "description": "This is package that creates a sidebar using a directory structure.",
+  "main": "lib/vuepress-dir-sidebar.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onlydel/vuepress-dir-sidebar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onlydel/vuepress-dir-sidebar/issues"
+  },
+  "keywords": [
+    "vuepress",
+    "sidebar"
+  ],
+  "homepage": "https://github.com/onlydel/vuepress-dir-sidebar#readme",
+  "dependencies": {
+    "directory-tree": "^2.2.1"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^5.2.0"
+  }
+}
