@@ -40,5 +40,11 @@ describe('dirSidebar', () => {
         const rootPath = path.join(__dirname, '/testdir2/');
         const sidebar = dirSidebar(rootPath, 'meteor/official');
         expect(sidebar).deep.equal([ 'meteor/official/', 'meteor/official/guide/' ]);
+    });
+
+    it('유효하지 않은 루트 경로로 호출 시, 빈 배열로 반환', () => {
+        const rootPath = path.join(__dirname, '/invalid/');
+        const sidebar = dirSidebar(rootPath, 'something');
+        expect(sidebar).deep.equal([]);
 	});
 });
